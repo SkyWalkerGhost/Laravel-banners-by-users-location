@@ -2,7 +2,7 @@
 	
 	@section('content')
 		
-		<h1 class="h1"> Visitors </h1>	
+		<h1 class="h1"> Visitors ({{ count($VisitorsData) }}) </h1>	
 		<hr class="mb-5">
 
 		@include('include.messages')
